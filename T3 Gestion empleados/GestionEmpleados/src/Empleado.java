@@ -1,15 +1,13 @@
 
-import java.util.Date;
-
 public class Empleado {
     private String id;
     private String nombreCompleto;
     private String puesto;
     private String correo;
     private String telefono;
-    private Date fechaContratacion;
+    private String fechaContratacion;
 
-    public Empleado(String id, String nombreCompleto, Date fechaContratacion,
+    public Empleado(String id, String nombreCompleto, String fechaContratacion,
                     String puesto, String correo,
                     String telefono) {
         this.id = id;
@@ -41,7 +39,7 @@ public class Empleado {
         return telefono;
     }
 
-    public Date getFechaContratacion() {
+    public String getFechaContratacion() {
         return fechaContratacion;
     }
 
@@ -67,7 +65,7 @@ public class Empleado {
         this.telefono = telefono;
     }
 
-    public void setFechaContratacion(Date fechaContratacion) {
+    public void setFechaContratacion(String fechaContratacion) {
         this.fechaContratacion = fechaContratacion;
     }
 
