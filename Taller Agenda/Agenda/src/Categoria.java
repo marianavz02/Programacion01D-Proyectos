@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
 public enum Categoria {
+    OFICINA, FIESTA, AMIGOS, FAMILIA;
 }
